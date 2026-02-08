@@ -1,7 +1,7 @@
 // Not Added Feature
 function errorNA(text) {
     clearTimeout()
-    document.getElementById('errortext').innerHTML = "The " + text + " feature hasn't been made yet."
+    document.getElementById('errortext').innerHTML = "The " + text + " featwure hasn't been made yet."
     document.getElementById('naerror').style.display = 'block';
     setTimeout(function(){
         document.getElementById('naerror').classList.add('zoom-out');
